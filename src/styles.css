@@ -114,3 +114,34 @@ footer {
 .weather-app-container {
     display: flex;
 }
+
+.weather-forecast {
+    margin-top: 20 px;
+    text-align: center;
+    color: black;
+}
+
+.weather-forecast-date {
+    font-size: 16 px;
+    opacity: 0.7;
+}
+
+.weather-forecast-temperature {
+    font-size: 16 px;
+}
+
+.weather-forecast-temperature-min {
+    opacity: 0.4;
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 100%;
+
+    display: block;
+    margin: 0 auto;
+}
